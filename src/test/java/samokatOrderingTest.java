@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
 
-public class SamokatOrderingTest extends CommonBaseTest {
+public class samokatOrderingTest extends commonBaseTest {
 
 // Тест заказа через кнопку в хэдере
     @Test

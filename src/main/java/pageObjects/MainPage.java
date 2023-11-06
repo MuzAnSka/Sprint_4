@@ -27,7 +27,7 @@ public class MainPage {
     private By middleOrderButton = By.className("Button_Middle__1CSJM");
 
     // Массив локаторов кнопок с вопросами 
-    private static final String[] dropDownQuestionsArray = new String[]{
+    public static final String[] dropDownQuestionsArray = new String[]{
             "accordion__heading-0",
             "accordion__heading-1",
             "accordion__heading-2",
@@ -38,7 +38,7 @@ public class MainPage {
             "accordion__heading-7"};
 
     // Массив локаторов панелей с текстом ответов 
-    private static final String[] dropDownAnswersArray = new String[]{
+    public static final String[] dropDownAnswersArray = new String[]{
             "accordion__panel-0",
             "accordion__panel-1",
             "accordion__panel-2",
@@ -47,6 +47,16 @@ public class MainPage {
             "accordion__panel-5",
             "accordion__panel-6",
             "accordion__panel-7"};
+
+    public static final String[] expectedResponsesArray = new String[]{
+            "Сутки — 400 рублей. Оплата курьеру — наличными или картой.",
+            "Пока что у нас так: один заказ — один самокат. Если хотите покататься с друзьями, можете просто сделать несколько заказов — один за другим.",
+            "Допустим, вы оформляете заказ на 8 мая. Мы привозим самокат 8 мая в течение дня. Отсчёт времени аренды начинается с момента, когда вы оплатите заказ курьеру. Если мы привезли самокат 8 мая в 20:30, суточная аренда закончится 9 мая в 20:30.",
+            "Только начиная с завтрашнего дня. Но скоро станем расторопнее.",
+            "Пока что нет! Но если что-то срочное — всегда можно позвонить в поддержку по красивому номеру 1010.",
+            "Самокат приезжает к вам с полной зарядкой. Этого хватает на восемь суток — даже если будете кататься без передышек и во сне. Зарядка не понадобится.",
+            "Да, пока самокат не привезли. Штрафа не будет, объяснительной записки тоже не попросим. Все же свои.",
+            "Да, обязательно. Всем самокатов! И Москве, и Московской области."};
 
     // Методы для работы с элементами главной страницы.
     // Открыть сайт 

@@ -7,8 +7,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.util.concurrent.TimeUnit;
 
-public class CommonBaseTest {
-    WebDriver driver;
+public class commonBaseTest {
+    static WebDriver driver;
 
 // Выбор браузера для прогона тестов
     @Before
